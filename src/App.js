@@ -1,7 +1,7 @@
 import "./App.css";
 import { uidData } from "./uidData";
  
- 
+import KPlogo from "./kplogo.png"; 
  
  
 const Component = () => {
@@ -12,7 +12,7 @@ const Component = () => {
     return (
         <div>
         <div id="header">
-        <img src="./public/kplogo.png" width="200px" />
+        <img src={KPlogo} width="200px" />
         </div>
         <h1 id="UID">
             Unique Identifier Database
