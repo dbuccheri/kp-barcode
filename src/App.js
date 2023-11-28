@@ -15,7 +15,7 @@ const Component = () => {
         <img src={KPlogo} width="200px" />
         </div>
         <h1 id="UID">
-            Unique Identifier Database
+            Universal Document Identifier Database
         </h1>
        <div > {getUID.map(data => (
        <div>
